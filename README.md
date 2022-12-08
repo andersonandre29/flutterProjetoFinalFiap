@@ -1,5 +1,17 @@
 # trabalhofinalgrupo
 
+Lista dos participantes da equipe
+
+Adriano Bastos e Silva (rm344764)
+Anderson Andre dos Santos (rm344968)
+Gustavo Souza Rodrigues (rm344770)
+Luis Fernando de Sena Carita (rm344775)
+Paulo Roberto Petrillo (rm344779)
+
+Link gitHub:
+
+https://github.com/andersonandre29/flutterProjetoFinalFiap.git
+
 A new Flutter project.
 
 ## Getting Started

@@ -12,6 +12,20 @@ Link gitHub:
 
 https://github.com/andersonandre29/flutterProjetoFinalFiap.git
 
+Login:
+    - Usuário: teste@fiap.com
+    - Senha: 12345678
+
+
+Videos Demonstração:
+
+- Cadastro de Usuarios
+-Login coo o usuario cadastrado e Lista de Livros
+
+
+
+
+
 A new Flutter project.
 
 ## Getting Started

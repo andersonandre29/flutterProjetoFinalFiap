@@ -19,8 +19,9 @@ Login:
 
 Videos Demonstração:
 
-- Cadastro de Usuarios
--Login coo o usuario cadastrado e Lista de Livros
+    Diretório raiz projeto pasta /videos
+    - Cadastro de Usuarios
+    - Login coo o usuario cadastrado e Lista de Livros
 
 
 

@@ -10,6 +10,13 @@ Paulo Roberto Petrillo (rm344779)
 
 Link gitHub:
 
+Objetivo:
+    Fazer o cadastro de Usuário, onde o mesmo é armazenado no Firebase;
+    Efetuar o Login com o usuário cadastrado, caso o usuário consiga efetuar o login é
+    realizado o redirecionamento para pagina de listagem de Livros Mais Vendidos utilizando o 
+    ListView onde é carregado na tela a listagem referente ao acionamento da API:
+    http://demo8323893.mockable.io/trabalhoFinalFlutter
+
 https://github.com/andersonandre29/flutterProjetoFinalFiap.git
 
 Login:

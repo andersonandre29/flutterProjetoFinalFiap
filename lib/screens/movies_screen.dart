@@ -106,7 +106,8 @@ class _MoviesScreenState extends State<MoviesScreen> {
 
   Future<void> fetchMovies() async {
     try {
-      final uri = Uri.parse('https://demo7206081.mockable.io/movies');
+      final uri = Uri.parse('http://demo8323893.mockable.io/trabalhoFinalFlutter');
+     // final uri = Uri.parse('https://demo7206081.mockable.io/movies');
       final response = await Client().get(uri);
 
       final jsonResponse = jsonDecode(response.body);

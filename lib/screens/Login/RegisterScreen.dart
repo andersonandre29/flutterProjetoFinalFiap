@@ -30,6 +30,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                'img/logo_book.jpeg',
+                fit: BoxFit.contain,
+                height: 32,
+              ),
+              Container(
+                  padding: const EdgeInsets.all(8.0), child: Text('Livros Mais Vendidos'))
+            ],
+
+          ),
+
         ),
         backgroundColor: Cores.Fundo,
         body: SingleChildScrollView(

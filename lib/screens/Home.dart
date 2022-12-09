@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
               height: 32,
             ),
             Container(
-                padding: const EdgeInsets.all(8.0), child: Text('Lista de Filmes'))
+                padding: const EdgeInsets.all(8.0), child: Text('Livros Mais Vendidos'))
           ],
 
         ),
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
         child: (moviesList.isEmpty)
             ? const Center(
                 child: Text(
-                  'Carregando filmes',
+                  'Carregando Livros',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
@@ -95,6 +95,8 @@ class _HomePageState extends State<HomePage> {
                           child: Image.network(
                             movie.image,
                             height: 150,
+                              scale: 0.5,
+
                           ),
                         ),
                         Expanded(
@@ -138,7 +140,9 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> fetchMovies() async {
     try {
-      final uri = Uri.parse('https://demo7206081.mockable.io/movies');
+      //final uri = Uri.parse('https://demo7206081.mockable.io/movies');
+      final uri = Uri.parse('http://demo8323893.mockable.io/trabalhoFinalFlutter');
+
       final response = await Client().get(uri);
 
       final jsonResponse = jsonDecode(response.body);
